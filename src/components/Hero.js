@@ -39,7 +39,7 @@ const Hero = () => {
       price: "$40",
     },
   ];
-  const { searching, setSearching } = useAppContext();
+  const { searching } = useAppContext();
 
   return (
     <div className={`${searching !== "" && "hidden"} `}>
