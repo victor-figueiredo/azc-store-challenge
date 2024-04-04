@@ -44,6 +44,11 @@ export async function getShirtsByFilter({ type, value, filteringByGender }) {
     return shirts;
   }
 
+  if (filteringByGender) {
+    const shirts = filteringByGender.filter((s) => s.sizes.includes(value));
+    return shirts;
+  }
+
   const shirts = data.filter((s) => s.sizes.includes(value));
   return shirts;
 }
