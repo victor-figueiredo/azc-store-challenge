@@ -22,21 +22,21 @@ const Hero = () => {
       img: "/assets/images/banner1.png",
       title: "IMPERDÍVEL!",
       mainTitle: "Para elas",
-      price: "$100",
+      price: "$40",
     },
     {
       id: 2,
       img: "/assets/images/banner2.png",
       title: "SE PRESENTEIE!",
       mainTitle: "DESCONTÃO!",
-      price: "$100",
+      price: "$40",
     },
     {
       id: 3,
       img: "/assets/images/banner3.png",
       title: "AS MELHORES PEÇAS!",
       mainTitle: "Aproveite!",
-      price: "$100",
+      price: "$40",
     },
   ];
   const { searching, setSearching } = useAppContext();
