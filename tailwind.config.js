@@ -13,8 +13,8 @@ module.exports = {
         padding: "15px",
       },
       colors: {
-        accent: "#FEBA54",
-        blackish: "1b1b1b",
+        primary: "#FEBA54",
+        secondary: "1b1b1b",
       },
     },
   },

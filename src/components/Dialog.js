@@ -35,7 +35,7 @@ export default function FullScreenDialog() {
         )}
         {shirt && (
           <>
-            <Toolbar className="bg-accent">
+            <Toolbar className="bg-primary">
               <IconButton
                 edge="start"
                 color="inherit"

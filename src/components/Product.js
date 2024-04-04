@@ -21,7 +21,7 @@ const Product = ({ id, img, title, desc, price, sizes, colors }) => {
       </div>
 
       <div className="space-y-2 py-2">
-        <h2 className="text-blackish font-medium uppercase">{title}</h2>
+        <h2 className="text-secondary font-medium uppercase">{title}</h2>
         <p className="text-gray-500 max-w-[150px]">{desc}</p>
         <p className="text-gray-500 max-w-[200px] truncate textOverflow">
           Tamanhos:{" "}
