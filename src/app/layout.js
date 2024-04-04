@@ -11,7 +11,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "AZC store",
-  description: "AZC store",
+  description:
+    "AZC store - Your one-stop virtual shop for all your shopping needs.",
 };
 
 export default function RootLayout({ children }) {
