@@ -43,7 +43,7 @@ const Hero = () => {
 
   return (
     <div className={`${searching !== "" && "hidden"} `}>
-      <div className="container pt-6 lg:pt-0">
+      <div className="container w-full md:w-[80%] lg:w-[70%] xl:w-[60%] pt-6 lg:pt-0">
         <Slider {...settings}>
           {slideData.map((item) => (
             <Slide
