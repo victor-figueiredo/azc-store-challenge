@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/images/product1.png",
+    "title": "Camiseta Hurley Undercover",
+    "desc": "Tecido 100% algodão",
+    "price": 45,
+    "sizes": ["P", "M", "G", "GG", "XG", "XGG"],
+    "colors": [
+      "Vermelho",
+      "Verde",
+      "Azul",
+      "Preto",
+      "Branco",
+      "Cinza",
+      "Amarelo",
+      "Roxo",
+      "Rosa",
+      "Marrom"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": 2,
+    "img": "/assets/images/product2.jpg",
+    "title": "Camiseta oakley Top",
+    "desc": "Tecido de qualidade",
+    "price": 70,
+    "sizes": ["P", "M", "GG", "XG"],
+    "colors": ["Vermelho", "Azul", "Preto", "Amarelo", "Rosa", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 3,
+    "img": "/assets/images/product3.jpg",
+    "title": "Camiseta oakley irada",
+    "desc": "Tecido muito bom",
+    "price": 50,
+    "sizes": ["M", "G", "XGG"],
+    "colors": ["Roxo", "Rosa", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 4,
+    "img": "/assets/images/product4.jpg",
+    "title": "Camiseta oakley",
+    "desc": "Tecido muito bom",
+    "price": 120,
+    "sizes": ["P", "XGG"],
+    "colors": ["Vermelho", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 5,
+    "img": "/assets/images/product5.jpg",
+    "title": "Camiseta Hurley",
+    "desc": "Tecido muito bom",
+    "price": 180,
+    "sizes": ["M", "G"],
+    "colors": ["Preto", "Branco", "Roxo", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 6,
+    "img": "/assets/images/product6.jpg",
+    "title": "Camiseta Hurley",
+    "desc": "Camiseta estilo surfista",
+    "price": 40,
+    "sizes": ["P", "XG", "XGG"],
+    "colors": ["Vermelho", "Branco", "Cinza", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 7,
+    "img": "/assets/images/product7.jpg",
+    "title": "Camiseta Quiksilver",
+    "desc": "Camiseta estilo surfista",
+    "price": 80,
+    "sizes": ["P", "XG", "XGG"],
+    "colors": ["Vermelho", "Preto", "Rosa", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 8,
+    "img": "/assets/images/product8.jpg",
+    "title": "Camiseta oakley",
+    "desc": "Camiseta oakley de qualidade",
+    "price": 100,
+    "sizes": ["P", "G", "GG", "XGG"],
+    "colors": ["Vermelho", "Verde", "Cinza", "Amarelo"],
+    "gender": "male"
+  },
+  {
+    "id": 9,
+    "img": "/assets/images/product9.png",
+    "title": "Camiseta oakley",
+    "desc": "Mais uma das peças originais da oakley",
+    "price": 150,
+    "sizes": ["P", "M", "G", "GG", "XG"],
+    "colors": [
+      "Vermelho",
+      "Verde",
+      "Preto",
+      "Branco",
+      "Roxo",
+      "Rosa",
+      "Marrom"
+    ],
+    "gender": "male"
+  },
+  {
+    "id": 10,
+    "img": "/assets/images/product10.png",
+    "title": "Camiseta hurley",
+    "desc": "Original de qualidade",
+    "price": 180,
+    "sizes": ["P", "GG", "XG"],
+    "colors": ["Verde", "Azul", "Preto", "Amarelo", "Rosa", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 11,
+    "img": "/assets/images/product11.jpg",
+    "title": "Camiseta Quiksilver",
+    "desc": "Peça original da quiksilver",
+    "price": 170,
+    "sizes": ["P", "GG", "XG"],
+    "colors": ["Vermelho", "Verde", "Azul", "Branco", "Cinza", "Roxo", "Rosa"],
+    "gender": "male"
+  },
+  {
+    "id": 12,
+    "img": "/assets/images/product12.png",
+    "title": "Camiseta quiksilver",
+    "desc": "Tercido 100% algodão",
+    "price": 170,
+    "sizes": ["M", "G", "XG", "XGG"],
+    "colors": ["Verde", "Azul", "Branco", "Roxo", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 13,
+    "img": "/assets/images/product13.jpg",
+    "title": "Camiseta Hurley",
+    "desc": "Camiseta top de linha",
+    "price": 100,
+    "sizes": ["P", "M", "GG", "XG"],
+    "colors": ["Vermelho", "Preto", "Branco", "Rosa", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 14,
+    "img": "/assets/images/product14.jpg",
+    "title": "Camiseta Hurley Undercover",
+    "desc": "Original e de qualidade",
+    "price": 40,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Amarelo", "Rosa", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 15,
+    "img": "/assets/images/product15.jpg",
+    "title": "Camiseta Hurley de qualidade",
+    "desc": "Mais uma das nossas peças de qualidade",
+    "price": 120,
+    "sizes": ["P", "GG", "XG", "XGG"],
+    "colors": ["Azul", "Roxo", "Rosa", "Marrom"],
+    "gender": "male"
+  },
+  {
+    "id": 16,
+    "img": "/assets/images/product16.jpg",
+    "title": "Camisera quiksilver original",
+    "desc": "100% algodão",
+    "price": 80,
+    "sizes": ["P", "XG", "XGG"],
+    "colors": ["Azul", "Preto", "Branco", "Amarelo"],
+    "gender": "male"
+  },
+  {
+    "id": 17,
+    "img": "/assets/images/product17.jpg",
+    "title": "Camiseta Hurley",
+    "desc": "Camiseta top de linha",
+    "price": 130,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "male"
+  },
+  {
+    "id": 18,
+    "img": "/assets/images/product18.png",
+    "title": "Camiseta Hurley",
+    "desc": "Camiseta top, de qualidade",
+    "price": 60,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "male"
+  },
+  {
+    "id": 19,
+    "img": "/assets/images/product19.png",
+    "title": "Camiseta Hurley",
+    "desc": "Camiseta original",
+    "price": 120,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "male"
+  },
+
+  {
+    "id": 20,
+    "img": "/assets/images/product20.png",
+    "title": "Bela camiseta feminina",
+    "desc": "Lançamento da coleção feminina",
+    "price": 170,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 21,
+    "img": "/assets/images/product21.png",
+    "title": "Bela camiseta feminina",
+    "desc": "Destaque-se com essa camiseta",
+    "price": 130,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 22,
+    "img": "/assets/images/product22.png",
+    "title": "Bela camiseta feminina",
+    "desc": "Camiseta original",
+    "price": 90,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 23,
+    "img": "/assets/images/product23.png",
+    "title": "Camiseta ritbox",
+    "desc": "Camiseta top de linha",
+    "price": 200,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 24,
+    "img": "/assets/images/product24.png",
+    "title": "Camiseta Juramento Humor",
+    "desc": "Camiseta top de linha",
+    "price": 120,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 25,
+    "img": "/assets/images/product25.png",
+    "title": "Camiseta Sertão",
+    "desc": "100% algodão",
+    "price": 180,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 26,
+    "img": "/assets/images/product26.png",
+    "title": "Camiseta Planta",
+    "desc": "Tecido de qualidade",
+    "price": 170,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 27,
+    "img": "/assets/images/product27.png",
+    "title": "Camiseta linda",
+    "desc": "Camiseta top de linha",
+    "price": 80,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 28,
+    "img": "/assets/images/product28.png",
+    "title": "Camiseta estilosa",
+    "desc": "Estilo e qualidade",
+    "price": 120,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 29,
+    "img": "/assets/images/product29.png",
+    "title": "Camiseta Beatles",
+    "desc": "Para os fãs dos Beatles",
+    "price": 50,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 30,
+    "img": "/assets/images/product30.png",
+    "title": "Camiseta linda",
+    "desc": "Mais uma das nossas peças de qualidade",
+    "price": 100,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 31,
+    "img": "/assets/images/product31.png",
+    "title": "Camiseta sonhe",
+    "desc": "Beleza e qualidade em uma só peça",
+    "price": 130,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 32,
+    "img": "/assets/images/product32.jpg",
+    "title": "Camiseta Força feminina",
+    "desc": "Qualidade",
+    "price": 180,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 33,
+    "img": "/assets/images/product33.png",
+    "title": "Camiseta Força feminina",
+    "desc": "Mais uma das nossas peças de qualidade",
+    "price": 40,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  },
+  {
+    "id": 34,
+    "img": "/assets/images/product34.jpg",
+    "title": "Camiseta Dona de si",
+    "desc": "Qualidade",
+    "price": 50,
+    "sizes": ["P", "M", "GG", "XGG"],
+    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "gender": "female"
+  }
+]
