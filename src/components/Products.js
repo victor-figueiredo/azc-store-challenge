@@ -5,9 +5,10 @@ import Product from "./Product";
 import FullScreenDialog from "./Dialog";
 import Select from "./Select";
 import Skeleton from "@mui/material/Skeleton";
+import { verifyFilters } from "@/app/helpers/verifyFilters";
 
 const Products = () => {
-  const { shirts, isLoading, filtering } = useAppContext();
+  const { shirts, isLoading, filtering, searching } = useAppContext();
 
   return (
     <div>
@@ -26,7 +27,13 @@ const Products = () => {
                 { value: "Até 150" },
                 { value: "Até 200" },
               ]}
-              disabled={filtering === "Cores" || filtering === "Tamanhos"}
+              disabled={verifyFilters({
+                type: "Preços",
+                filters: {
+                  filtering,
+                  searching,
+                },
+              })}
             />
             <Select
               label="Tamanhos"
@@ -39,7 +46,13 @@ const Products = () => {
                 { value: "XG" },
                 { value: "XGG" },
               ]}
-              disabled={filtering === "Cores" || filtering === "Preços"}
+              disabled={verifyFilters({
+                type: "Tamanhos",
+                filters: {
+                  filtering,
+                  searching,
+                },
+              })}
             />
             <Select
               label="Cores"
@@ -56,7 +69,13 @@ const Products = () => {
                 { value: "Rosa" },
                 { value: "Marrom" },
               ]}
-              disabled={filtering === "Tamanhos" || filtering === "Preços"}
+              disabled={verifyFilters({
+                type: "Cores",
+                filters: {
+                  filtering,
+                  searching,
+                },
+              })}
             />
           </div>
         </div>

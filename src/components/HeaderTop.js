@@ -4,7 +4,7 @@
 import { Search, AlignJustify, User, Heart, ShoppingBag } from "lucide-react";
 import Logo from "./Logo";
 import { useAppContext } from "@/context";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 const HeaderTop = () => {
   const [search, setSearch] = useState("");
@@ -21,19 +21,19 @@ const HeaderTop = () => {
     handleShirtSearch(search);
   };
 
-  const handleClearSearch = () => {
+  const handleClearSearch = useCallback(() => {
     if (filteringByGender) {
       getShirtByGender(filteringByGender);
       return;
     }
     getData();
-  };
+  }, [filteringByGender, getShirtByGender, getData]);
 
   useEffect(() => {
     if (searching !== "" && search === "") {
       handleClearSearch();
     }
-  }, [search, searching]);
+  }, [search, searching, handleClearSearch]);
 
   return (
     <nav className="bg-[#fff] border-b border-gray-200 sm:flex justify-between w-[100%] h-[76px] m-0">
