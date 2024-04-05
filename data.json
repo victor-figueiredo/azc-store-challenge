@@ -215,8 +215,16 @@
     "title": "Bela camiseta feminina",
     "desc": "Lançamento da coleção feminina",
     "price": 170,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "GG", "XG"],
+    "colors": [
+      "Vermelho",
+      "Verde",
+      "Cinza",
+      "Amarelo",
+      "Roxo",
+      "Rosa",
+      "Marrom"
+    ],
     "gender": "female"
   },
   {
@@ -225,8 +233,16 @@
     "title": "Bela camiseta feminina",
     "desc": "Destaque-se com essa camiseta",
     "price": 130,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "G", "GG", "XGG"],
+    "colors": [
+      "Vermelho",
+      "Azul",
+      "Preto",
+      "Branco",
+      "Cinza",
+      "Rosa",
+      "Marrom"
+    ],
     "gender": "female"
   },
   {
@@ -235,8 +251,16 @@
     "title": "Bela camiseta feminina",
     "desc": "Camiseta original",
     "price": 90,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "G", "GG", "XG"],
+    "colors": [
+      "Vermelho",
+      "Verde",
+      "Azul",
+      "Preto",
+      "Cinza",
+      "Amarelo",
+      "Marrom"
+    ],
     "gender": "female"
   },
   {
@@ -245,8 +269,16 @@
     "title": "Camiseta ritbox",
     "desc": "Camiseta top de linha",
     "price": 200,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G"],
+    "colors": [
+      "Vermelho",
+      "Verde",
+      "Azul",
+      "Branco",
+      "Cinza",
+      "Rosa",
+      "Marrom"
+    ],
     "gender": "female"
   },
   {
@@ -255,8 +287,16 @@
     "title": "Camiseta Juramento Humor",
     "desc": "Camiseta top de linha",
     "price": 120,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G", "GG"],
+    "colors": [
+      "Vermelho",
+      "Verde",
+      "Branco",
+      "Cinza",
+      "Amarelo",
+      "Rosa",
+      "Marrom"
+    ],
     "gender": "female"
   },
   {
@@ -265,8 +305,8 @@
     "title": "Camiseta Sertão",
     "desc": "100% algodão",
     "price": 180,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G", "GG", "XG"],
+    "colors": ["Azul", "Preto", "Branco", "Cinza", "Rosa", "Marrom"],
     "gender": "female"
   },
   {
@@ -275,8 +315,8 @@
     "title": "Camiseta Planta",
     "desc": "Tecido de qualidade",
     "price": 170,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "G", "GG"],
+    "colors": ["Vermelho", "Verde", "Azul", "Preto", "Amarelo", "Roxo", "Rosa"],
     "gender": "female"
   },
   {
@@ -285,8 +325,8 @@
     "title": "Camiseta linda",
     "desc": "Camiseta top de linha",
     "price": 80,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "GG", "XG"],
+    "colors": ["Azul", "Preto", "Branco", "Cinza"],
     "gender": "female"
   },
   {
@@ -295,8 +335,8 @@
     "title": "Camiseta estilosa",
     "desc": "Estilo e qualidade",
     "price": 120,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G"],
+    "colors": ["Vermelho", "Verde", "Branco", "Cinza", "Amarelo", "Roxo"],
     "gender": "female"
   },
   {
@@ -305,8 +345,8 @@
     "title": "Camiseta Beatles",
     "desc": "Para os fãs dos Beatles",
     "price": 50,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G", "GG"],
+    "colors": ["Vermelho", "Verde", "Azul", "Preto", "Cinza"],
     "gender": "female"
   },
   {
@@ -315,8 +355,8 @@
     "title": "Camiseta linda",
     "desc": "Mais uma das nossas peças de qualidade",
     "price": 100,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G", "GG"],
+    "colors": ["Vermelho", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
     "gender": "female"
   },
   {
@@ -325,8 +365,8 @@
     "title": "Camiseta sonhe",
     "desc": "Beleza e qualidade em uma só peça",
     "price": 130,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G", "GG", "XG"],
+    "colors": ["Azul", "Amarelo", "Roxo", "Rosa", "Marrom"],
     "gender": "female"
   },
   {
@@ -335,8 +375,8 @@
     "title": "Camiseta Força feminina",
     "desc": "Qualidade",
     "price": 180,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["P", "M", "G", "GG"],
+    "colors": ["Vermelho", "Preto", "Branco", "Rosa", "Marrom"],
     "gender": "female"
   },
   {
@@ -345,8 +385,8 @@
     "title": "Camiseta Força feminina",
     "desc": "Mais uma das nossas peças de qualidade",
     "price": 40,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["G", "GG", "XG", "XGG"],
+    "colors": ["Vermelho", "Azul", "Preto", "Branco", "Cinza", "Marrom"],
     "gender": "female"
   },
   {
@@ -355,8 +395,8 @@
     "title": "Camiseta Dona de si",
     "desc": "Qualidade",
     "price": 50,
-    "sizes": ["P", "M", "GG", "XGG"],
-    "colors": ["Verde", "Azul", "Preto", "Branco", "Cinza", "Amarelo"],
+    "sizes": ["M", "G", "GG", "XG"],
+    "colors": ["Azul", "Amarelo", "Roxo"],
     "gender": "female"
   }
 ]

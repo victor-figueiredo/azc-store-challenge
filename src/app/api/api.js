@@ -4,8 +4,14 @@ export async function getShirts() {
   return data;
 }
 
-export async function getShirtsByName(name) {
-  const shirts = data.filter((s) => s.title.includes(name));
+export async function getShirtsByName({ search, filteringByGender }) {
+  if (filteringByGender) {
+    const shirts = data.filter(
+      (s) => s.gender === filteringByGender && s.title.includes(search)
+    );
+    return shirts;
+  }
+  const shirts = data.filter((s) => s.title.includes(search));
   return shirts;
 }
 
@@ -26,8 +32,9 @@ export async function getShirtsByFilter({ type, value, filteringByGender }) {
   if (type === "Preços") {
     let valueFormated = value.split(" ")[1];
     if (filteringByGender) {
-      const shirts = filteringByGender.filter(
-        (s) => s.price <= parseInt(valueFormated)
+      const shirts = data.filter(
+        (s) =>
+          s.gender === filteringByGender && s.price <= parseInt(valueFormated)
       );
       return shirts;
     }
@@ -37,7 +44,9 @@ export async function getShirtsByFilter({ type, value, filteringByGender }) {
 
   if (type === "Cores") {
     if (filteringByGender) {
-      const shirts = filteringByGender.filter((s) => s.colors.includes(value));
+      const shirts = data.filter(
+        (s) => s.gender === filteringByGender && s.colors.includes(value)
+      );
       return shirts;
     }
     const shirts = data.filter((s) => s.colors.includes(value));
@@ -45,7 +54,9 @@ export async function getShirtsByFilter({ type, value, filteringByGender }) {
   }
 
   if (filteringByGender) {
-    const shirts = filteringByGender.filter((s) => s.sizes.includes(value));
+    const shirts = data.filter(
+      (s) => s.gender === filteringByGender && s.sizes.includes(value)
+    );
     return shirts;
   }
 

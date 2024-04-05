@@ -42,7 +42,7 @@ export function AppWrapper({ children }) {
     const response = await getShirtsByFilter({
       type,
       value,
-      filteringByGender: filteringByGender ? shirts : false,
+      filteringByGender: filteringByGender,
     });
     setShirts(response);
     setFiltering(type);
@@ -59,6 +59,7 @@ export function AppWrapper({ children }) {
     } finally {
       setIsLoading(false);
       setFiltering(false);
+      setSearching("");
       setFilteringByGender(g);
     }
   };
@@ -80,8 +81,11 @@ export function AppWrapper({ children }) {
   const handleShirtSearch = async (search) => {
     setSearching(search);
     setIsLoading(true);
-    const shirts = await getShirtsByName(search);
-    setShirts(shirts);
+    const results = await getShirtsByName({
+      search,
+      filteringByGender: filteringByGender,
+    });
+    setShirts(results);
     setIsLoading(false);
   };
 
@@ -103,6 +107,7 @@ export function AppWrapper({ children }) {
         openMobileNav,
         closeMobileNav,
         searching,
+        setSearching,
         handleClose,
         handleShirtSearch,
         getData,

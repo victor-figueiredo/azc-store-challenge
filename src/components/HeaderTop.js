@@ -8,18 +8,32 @@ import { useEffect, useState } from "react";
 
 const HeaderTop = () => {
   const [search, setSearch] = useState("");
-  const { searching, handleShirtSearch, getData } = useAppContext();
+  const {
+    searching,
+    handleShirtSearch,
+    getData,
+    getShirtByGender,
+    filteringByGender,
+  } = useAppContext();
 
   const handleSearch = (e) => {
     e.preventDefault();
     handleShirtSearch(search);
   };
 
+  const handleClearSearch = () => {
+    if (filteringByGender) {
+      getShirtByGender(filteringByGender);
+      return;
+    }
+    getData();
+  };
+
   useEffect(() => {
     if (searching !== "" && search === "") {
-      getData();
+      handleClearSearch();
     }
-  }, [search, getData, searching]);
+  }, [search, searching]);
 
   return (
     <nav className="bg-[#fff] border-b border-gray-200 sm:flex justify-between w-[100%] h-[76px] m-0">
